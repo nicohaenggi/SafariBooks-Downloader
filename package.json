@@ -4,11 +4,17 @@
   "description": "a safaribooks online downloader and epub creator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "DEBUG=* node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "debug": "^2.6.0"
   }
 }
