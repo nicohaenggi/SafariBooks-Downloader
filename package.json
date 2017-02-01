@@ -1,14 +1,13 @@
 {
-  "name": "safari",
+  "name": "safaribooks-downloader",
   "version": "1.0.0",
-  "description": "a safaribooks online downloader and epub creator",
+  "description": "a SafariBooksOnline-Downloader and .epub creator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "app": "DEBUG=* node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Nico Hänggi",
+  "license": "MIT",
   "dependencies": {
     "archiver": "^1.3.0",
     "commander": "^2.9.0",
