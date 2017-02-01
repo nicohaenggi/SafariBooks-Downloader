@@ -10,11 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "archiver": "^1.3.0",
     "commander": "^2.9.0",
     "ejs": "^2.5.5",
     "fs-promise": "^1.0.0",
     "request": "^2.79.0",
-    "request-promise": "^4.1.1"
+    "request-promise": "^4.1.1",
+    "rimraf": "^2.5.4"
   },
   "devDependencies": {
     "debug": "^2.6.0"
