@@ -68,7 +68,7 @@ If the command returns a version number, you have successfully installed the too
 
 ## How To Run
 
-The tool provides the following six options. The otpions **--bookid, --username, --password and --output** are required. However, if the username and password options are provided once, **they will be cached** and are no longer required to run the CLI.
+The tool provides the following six options. The options **--bookid, --username, --password and --output** are required. However, if the username and password options are provided once, **they will be cached** and are no longer required to run the CLI.
 
 #### Options
 
