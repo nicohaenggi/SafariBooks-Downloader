@@ -85,7 +85,7 @@ The tool provides the following six options. The options **--bookid, --username,
 * **-p, --password <password>**
     * password of the SafariBooksOnline user
 * **-o, --output <output>**
-    * output path the epub file should be saved to
+    * output path the epub file should be saved to. *On some systems, the path may require to contains no whitespaces*.
 
 #### Example
 
