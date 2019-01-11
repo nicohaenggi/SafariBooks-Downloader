@@ -9,6 +9,10 @@
   "bin": {
     "safaribooks-downloader": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicohaenggi/SafariBooks-Downloader.git"
+  },
   "author": "Nico Hänggi",
   "license": "MIT",
   "dependencies": {
