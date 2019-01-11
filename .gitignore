@@ -2,3 +2,5 @@ node_modules/
 .DS_STORE
 .credentials
 books/
+.idea/
+package-lock.json

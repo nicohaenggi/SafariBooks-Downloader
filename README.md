@@ -68,7 +68,7 @@ If the command returns a version number, you have successfully installed the too
 
 ## How To Run
 
-The tool provides the following six options. The otpions **--bookid, --username, --password and --output** are required. However, if the username and password options are provided once, **they will be cached** and are no longer required to run the CLI.
+The tool provides the following six options. The options **--bookid, --username, --password and --output** are required. However, if the username and password options are provided once, **they will be cached** and are no longer required to run the CLI.
 
 #### Options
 
@@ -85,13 +85,20 @@ The tool provides the following six options. The otpions **--bookid, --username,
 * **-p, --password <password>**
     * password of the SafariBooksOnline user
 * **-o, --output <output>**
-    * output path the epub file should be saved to
+    * output path the epub file should be saved to. *On some systems, the path may require to contains no whitespaces*.
+* **-d, --debug**
+    * enable debug mode for *request* package.
 
 #### Example
 
 An example showing how a SafariBooksOnline with id **9781484224427** is downloaded and converted into a ePub file **testbook.epub**.
 ```bash
 safaribooks-downloader -b 9781484224427 -u nicohaenggi -p MySuperSecurePassword -o /Users/nicohanggi/Desktop/testbook.epub
+```
+
+An example showing how a SafariBooksOnline with id **9892595335538** is downloaded and converted into a ePub file **testdebugbook.epub**.
+```bash
+safaribooks-downloader -d -b 9781484224427 -u nicohaenggi -p MySuperSecurePassword -o /Users/nicohanggi/Desktop/testbook.epub
 ```
 # Features
 - [x] generating ePub with cover image, authors and publisher
