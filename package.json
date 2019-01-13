@@ -4,7 +4,8 @@
   "description": "a SafariBooksOnline-Downloader and .epub creator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "safaribooks": "node ./index.js"
   },
   "bin": {
     "safaribooks-downloader": "./index.js"
