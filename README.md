@@ -54,6 +54,7 @@ To verify the installation, please run:
 ```bash
 safaribooks-downloader --version
 ```
+(NOTE: If you still notice the error in CMD as - 'safaribooks-downloader' is not recognized as an internal or external command for windows, you will need to add installed npm modules path (mostly, C:\Users\<USERNAME>\AppData\Roaming\npm) under environment variables>user variables for that user.)
 
 If the command returns a version number, you have successfully installed the tool globally. The current release is `v1.0.0`.
 
