@@ -110,6 +110,4 @@ safaribooks-downloader -d -b 9781484224427 -u nicohaenggi -p MySuperSecurePasswo
 - [Nico Haenggi](http://www.nicohaenggi.com): conception & development
 - [cyrilis](https://github.com/cyrilis): a big thanks to cyrillis for his epub-gen package which I relied upon heavily while integrating my own epub generator
 
-# Copyright & License
 
-Copyright (c) 2017 Nico Haenggi - Released under the [MIT License](https://github.com/nicohaenggi/SafariBooks-Downloader/blob/master/LICENSE)
