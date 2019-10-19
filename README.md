@@ -55,6 +55,37 @@ To verify the installation, please run:
 safaribooks-downloader --version
 ```
 
+## Running in Docker
+
+### Pre-requisites:
+Docker should be installed in the machine.
+
+Clone the repo:
+
+```bash
+git clone https://github.com/nicohaenggi/SafariBooks-Downloader.git
+```
+
+Get inside the cloned directory SafariBooks-Downloader.
+
+Build the docker image using dockerfile:
+
+```bash
+docker build -t <image_name> .
+```
+
+Run the built image as container:
+
+```bash
+docker run -it <image_name> bash
+```
+
+To verify the installation, please run:
+
+```bash
+safaribooks-downloader --version
+```
+
 If the command returns a version number, you have successfully installed the tool globally. The current release is `v1.0.0`.
 
 ## How To Update
