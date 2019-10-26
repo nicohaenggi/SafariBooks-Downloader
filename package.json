@@ -23,6 +23,7 @@
     "ejs": "^2.5.5",
     "fs-promise": "^1.0.0",
     "mime": "^1.3.4",
+    "nightmare": "^3.0.0",
     "request": "^2.79.0",
     "request-debug": "^0.2.0",
     "request-promise": "^4.1.1",
